@@ -1,0 +1,20 @@
+Hello from fd1
+Hello from fd2
+Hello from fd1
+Hello from fd2
+Hello from fd1
+Hello from fd2
+Hello from fd1
+Hello from fd2
+Writing with fd: 3
+Writing with fd: 1
+Hello from fd1
+Hello from fd2
+Hello from fd1
+Hello from fd2
+Hello from fd1
+Hello from fd2
+Hello from fd1
+Hello from fd2
+Hello from fd1
+Hello from fd2
