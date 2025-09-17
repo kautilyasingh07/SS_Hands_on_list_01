@@ -72,10 +72,10 @@ int main(int argc, char *argv[]){
 
 	off_t size = lseek(fd, 0, SEEK_END);
 	if(size < RECORD_SIZE * NUM_RECORDS){
-		for(int i = RECORD_SIZE/NUM_RECORDS; i < NUM_RECORDS; i++){
+		for(int i = 0; i < NUM_RECORDS; i++){
 			char buffer[RECORD_SIZE];
 			snprintf(buffer, sizeof(buffer), "Record: %d\n", i);
-			write(fd, buffer, sizeof(RECORD_SIZE));
+			write(fd, buffer, RECORD_SIZE);
 		}
 	}
 	
